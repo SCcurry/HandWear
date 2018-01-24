@@ -1,4 +1,4 @@
-package com.example.administrator.bluetooth;
+package com.example.administrator.mi2;
 
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //蓝牙处于关闭的时候--打开本地蓝牙设备
-                 //判断蓝牙是否打开
+                //判断蓝牙是否打开
                 if(mBluetoothAdapter.isEnabled()){
                     showToast("蓝牙已经打开...");
                     //关闭蓝牙

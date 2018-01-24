@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.administrator.bluetooth"
+        applicationId "com.example.administrator.mi2"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1

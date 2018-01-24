@@ -1,4 +1,4 @@
-package com.example.administrator.bluetooth;
+package com.example.administrator.mi2;
 
 import org.junit.Test;
 
