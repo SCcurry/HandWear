@@ -1,4 +1,4 @@
-package com.example.administrator.handwear;
+package com.example.administrator.bluetooth;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.administrator.handwear", appContext.getPackageName());
+        assertEquals("com.example.administrator.bluetooth", appContext.getPackageName());
     }
 }

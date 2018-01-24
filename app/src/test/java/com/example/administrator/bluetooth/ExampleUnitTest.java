@@ -1,4 +1,4 @@
-package com.example.administrator.handwear;
+package com.example.administrator.bluetooth;
 
 import org.junit.Test;
 
