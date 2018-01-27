@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HandWear.iml" filepath="$PROJECT_DIR$/HandWear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MI.iml" filepath="$PROJECT_DIR$/MI.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

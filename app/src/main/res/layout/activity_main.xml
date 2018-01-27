@@ -1,30 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.administrator.mi2.MainActivity"
     android:orientation="vertical"
-    >
+    tools:context="com.example.administrator.mi.MainActivity">
+
+    <Button
+        android:id="@+id/saomiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描设备"/>
+    <Button
+        android:id="@+id/zhendong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="短震 / 嘿嘿嘿"/>
+    <Button
+        android:id="@+id/changzhen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="长震 / 呵呵呵"/>
+    <Button
+        android:id="@+id/buting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不要停 / 哈哈哈"/>
+    <Button
+        android:id="@+id/tingxia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停下来 / ～～"/>
+
+    <TextView
+        android:id="@+id/jibu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="走了多少步："
+        android:gravity="center"
+        android:textSize="20dp"/>
 
 
     <TextView
-        android:id="@+id/txt_title"
+        android:id="@+id/dianliang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textSize="20sp"
-        android:textColor="#212121"
-        android:background="#eee" />
+        android:text="电池电量"
+        android:gravity="center"
+        android:textSize="20dp"/>
 
-    <Button
-        android:id="@+id/btn_open_bt"
+    <TextView
+        android:id="@+id/lianjiezhuangtai"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/open"
-        android:textSize="20sp"
-        android:textColor="#212121"
-        android:background="#eee"
-        />
+        android:text="连接状态：未连接"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.administrator.mi2;
+package com.example.administrator.mi;
 
 import org.junit.Test;
 
